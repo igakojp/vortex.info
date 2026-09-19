@@ -6,7 +6,7 @@
 
 You should not trust **ANYONE** with this information. Even your best friends. You don't know when people are going to betray you. Be careful.
 
-> ## I cannot take any responsibility for the damage caused by other users on Vortex.
+> ## I cannot take any responsibility for the damage caused by others.
 
 
 # ⚠️ THIS INFORMATION IS THE SAME AS A PASSWORD. KEEP IT SAFE. ⚠️
