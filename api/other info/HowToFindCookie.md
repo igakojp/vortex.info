@@ -15,16 +15,26 @@ You should not trust **ANYONE** with this information. Even your best friends. Y
 
 ---
 <details>
-<summary>I have read everything above.</summary>
-### How to get these information: 
-1, Right click on anywhere in the website and click `inspect` (You can press F12 or CTRL + SHIFT + I)
-2, Go to `Application`
-3, Find `Cookies`
-4, Select `https://playvortex.io`
-4, Copy the value for the `session_token`(I will call it `session_token_value`) and `cf_clearance`(I will call it `cf_clearance_value`)
 
-Put them into this text, and you got the full cookie for the api requests to use.
-```json
+<summary>I have read everything above.</summary>
+
+### How to get this information
+
+1. Right-click anywhere on the website and click `Inspect`.
+   You can also press `F12` or `Ctrl + Shift + I`.
+
+2. Go to `Application`.
+
+3. Find `Cookies`.
+
+4. Select [`https://playvortex.io`](https://playvortex.io).
+
+5. Copy the value for `session_token` (I will call it `session_token_value`) and `cf_clearance` (I will call it `cf_clearance_value`).
+
+6. Put them into this text, and you have the full cookie for the API requests:
+
+```text
 session_token=[session_token_value]; cf_clearance=[cf_clearance_value]
 ```
+
 </details>
