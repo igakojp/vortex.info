@@ -2,7 +2,7 @@
 
 > ## CAUTION
 > **This information should not be shared anywhere on the internet.**
-> You should never let anyone see, nor get information from the DevTools panel, even if it's not suspicious.
+> <span style="color: red;">ThisYou should never let anyone see, nor get information from the DevTools panel, even if it's not suspicious.</span>
 
 You should not trust **ANYONE** with this information. Even your best friends. You don't know when people are going to betray you. Be careful.
 
@@ -14,7 +14,8 @@ You should not trust **ANYONE** with this information. Even your best friends. Y
 *I used prominent formatting because this is too important to ignore.*
 
 ---
-
+<details>
+<summary>I have read everything above.</summary>
 ### How to get these information: 
 1, Right click on anywhere in the website and click `inspect` (You can press F12 or CTRL + SHIFT + I)
 2, Go to `Application`
@@ -26,3 +27,4 @@ Put them into this text, and you got the full cookie for the api requests to use
 ```json
 session_token=[session_token_value]; cf_clearance=[cf_clearance_value]
 ```
+</details>
