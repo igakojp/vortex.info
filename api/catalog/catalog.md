@@ -1,5 +1,5 @@
 ## All the catalog item's info:
-**https://playvortex.io/api/catalog/init** \
+```https://playvortex.io/api/catalog/init``` \
 Request method`GET`
 
 Example api response:
@@ -14,26 +14,31 @@ slug`The URL-friendly identifier for the item (The first 35 of them are set to n
 
 ## 3D model
 ### Male
-**https://playvortex.io/assets/male.glb** \
+```https://playvortex.io/assets/male.glb``` \
 Request method`GET`
 ## Female
-**https://playvortex.io/assets/female.glb** \
+```https://playvortex.io/assets/female.glb``` \
 Request method`GET`
 ## Avatar item image
 ### Face
-- https://playvortex.io/api/clothing/image/{item_id}
-- https://playvortex.io/api/clothing/images?ids={first_item_id},{second_item_id},{third_item_id}, ... \
+- ```https://playvortex.io/api/clothing/image/{item_id}```
+- ```https://playvortex.io/api/clothing/images?ids={first_item_id},{second_item_id},{third_item_id}, ...``` \
 All Request method`GET`
 ### Everything other than face
-- https://playvortex.io/api/catalog/thumbnail/{item_id}
-- https://playvortex.io/api/catalog/thumbnails?ids={first_item_id},{second_item_id},{third_item_id}, ... \
+- ```https://playvortex.io/api/catalog/thumbnail/{item_id}```
+- ```https://playvortex.io/api/catalog/thumbnails?ids={first_item_id},{second_item_id},{third_item_id}, ...``` \
 Request method`GET`
+
+`
+You can use the https://playvortex.io/api/clothing/image/{item_id} on the items other than the face, to get their original images, such as: 
+`
+<img src="https://playvortex.io/api/clothing/image/2" />
 ## Mesh api
-https://playvortex.io/api/meshes?ids={first_item_id},{second_item_id},{third_item_id}, ... \
+```https://playvortex.io/api/meshes?ids={first_item_id},{second_item_id},{third_item_id}, ...``` \
 Request method`GET`
 ## 3D avatar loader
 ### avatar_viewer.js
-**https://playvortex.io/js/avatar_viewer.js** \
+```https://playvortex.io/js/avatar_viewer.js``` \
 Request method`GET`
 - **3D Base Models**
 - **Applies Custom Textures**
@@ -42,7 +47,7 @@ Request method`GET`
 - **Interactive Controls**(Users can click, drag, rotate, and zoom around their character avatar in real-time.)
 ## Catalog & Customization System
 ### catalog.js
-**https://playvortex.io/js/catalog.js** \
+```https://playvortex.io/js/catalog.js``` \
 Request method`GET`
 - **Catalog Grid & Categorization** (Organizes inventory into shirts, pants, faces, and accessories)
 - **Item Equipping & Unequipping** (Updates the 3D viewer in real-time when clicking items)
@@ -50,7 +55,7 @@ Request method`GET`
 - **Outfit Persistence** (Tracks changes and saves updated outfits to the server via API)
 ## Base Shared Utilities
 ### base.js
-**https://playvortex.io/js/base.js** \
+```https://playvortex.io/js/base.js``` \
 Request method`GET`
 - **Global Helper Utilities** (HTML escaping, string validation, fingerprint parameters)
 - **Lazy Avatar Caching & IntersectionObserver** (Performance-focused avatar loading and batching)

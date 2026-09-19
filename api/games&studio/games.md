@@ -1,6 +1,6 @@
 ## All game's info
 ### Default information
-**https://playvortex.io/api/games** \
+```https://playvortex.io/api/games``` \
 Request method`GET`
 ```
 [{"id":1,"name":"Demo","description":"Test physics and features while developing Vortex.","creator_id":1,"creator_name":"TheHaloDeveloper","thumbnail_version":"a10c9ec0","player_count":6},{"id":3,"name":"Snowy Peak","description":"it's really chilly up here","creator_id":2,"creator_name":"kostas","thumbnail_version":"6087342e","player_count":0},{"id":4,"name":"The Crossbridges","description":"A Large island located in the Vortexic Ocean, divided into 4 slices and connected by colorful bridges. Which path will you choose?","creator_id":3135,"creator_name":"Eduardo","thumbnail_version":"bf381df7","player_count":0}]
@@ -14,7 +14,7 @@ thumbnail_version`The thumbnail's version (Used for the thumbnail image)`\
 player_count`The live ccu count`
 
 ### Additional information
-**https://playvortex.io/api/game-stats** \
+```https://playvortex.io/api/game-stats``` \
 Request method`GET`
 
 Example api response:
@@ -23,16 +23,3 @@ Example api response:
 ```
 active`The live ccu count`
 visits`Total visits count`
-
-### Notice Information
-**https://playvortex.io/api/notice**  
-Request method`GET`
-```
-{
-  "notice": "Your text here."
-}
-```
-notice`The active global site or maintenance announcement message`
-
-It shows a text on the top of your screen. Here's an example with the text `Hey!!!!!` inside the `notice` section.
-<img src="https://pbs.twimg.com/media/HQkArVabYAAyb7p?format=jpg&name=large">
