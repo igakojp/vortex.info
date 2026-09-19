@@ -2,7 +2,7 @@
 
 > ## CAUTION
 > **This information should not be shared anywhere on the internet.**
-> <span style="color: red;">ThisYou should never let anyone see, nor get information from the DevTools panel, even if it's not suspicious.</span>
+> You should never let anyone see, nor get information from the DevTools panel, even if it's not suspicious.
 
 You should not trust **ANYONE** with this information. Even your best friends. You don't know when people are going to betray you. Be careful.
 
