@@ -13,6 +13,23 @@ creator_name`The username of the game's creator`\
 thumbnail_version`The thumbnail's version (Used for the thumbnail image)`\
 player_count`The live ccu count`
 
+---
+
+### Game thumbnails
+
+```https://playvortex.io/assets/thumbnails/{game_id}?v={thumbnail_version}```
+Request method`GET` (Just use the image url) \
+*(You don't need to have the `?v={thumbnail_version}` part if you just want the latest version.)*
+
+Example result (gameid: 8 thumbnail_version: latest)
+<img src="https://playvortex.io/assets/thumbnails/8" />
+
+---
+### More in-depth game info
+`https://playvortex.io/api/games/` \
+Request method`GET`
+
+
 ### Additional information
 ```https://playvortex.io/api/game-stats``` \
 Request method`GET`
