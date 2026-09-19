@@ -11,3 +11,4 @@ visits`The total number of total studio visits`
 **https://playvortex.io/me**  
 Request method`GET`
 It requires your account cookie to load it.
+[How to find your account cookie.](api/other%20info/HowToFindCookie.md)
