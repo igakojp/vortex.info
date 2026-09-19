@@ -17,7 +17,7 @@ player_count`The live ccu count`
 
 ### Game thumbnails
 
-```https://playvortex.io/assets/thumbnails/{game_id}?v={thumbnail_version}```
+```https://playvortex.io/assets/thumbnails/{game_id}?v={thumbnail_version}``` \
 Request method`GET` (Just use the image url) \
 *(You don't need to have the `?v={thumbnail_version}` part if you just want the latest version.)*
 

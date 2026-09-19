@@ -1,6 +1,6 @@
 
 ### Notice Information
-**https://playvortex.io/api/notice**  
+```https://playvortex.io/api/notice``` \
 Request method`GET`
 ```
 {
