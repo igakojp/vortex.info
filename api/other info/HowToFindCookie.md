@@ -20,7 +20,7 @@ You should not trust **ANYONE** with this information. Even your best friends. Y
 
 ### How to get this information
 
-1. Go to https://playvortex.io
+1. Go to **https://playvortex.io**
 
 2. Right-click anywhere on the website and click `Inspect`.
    You can also press `F12` or `Ctrl + Shift + I`.
@@ -29,7 +29,7 @@ You should not trust **ANYONE** with this information. Even your best friends. Y
 
 4. Find `Cookies`.
 
-5. Select [`https://playvortex.io`](https://playvortex.io).
+5. Select [**`https://playvortex.io`**](https://playvortex.io).
 
 6. Copy the value for `session_token` (I will call it `session_token_value`) and `cf_clearance` (I will call it `cf_clearance_value`).
 
