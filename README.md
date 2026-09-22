@@ -27,3 +27,8 @@ Everything in this GitHub repo expects you to have a Computer.
 ### [Official Vortex Support Discord server](https://discord.gg/HpGFYthxDR)
 ### [Volts page](https://playvortex.io/volts)
 ### [Vortex settings page](https://playvortex.io/settings)
+
+# Other links I just want to put in lol
+## My stuff
+### [Catalog archive](https://playvortexio.vercel.app/)
+### [Catalog avatar 
