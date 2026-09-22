@@ -1,5 +1,5 @@
 # All banned links
-###### *Don't ask what this is for. I have -100% idea.*
+###### *Don't ask what this is for. I have -100% idea, and I can't say if these links are all safe.*
 ---
 ### Top-Level Domain
 .tv \
