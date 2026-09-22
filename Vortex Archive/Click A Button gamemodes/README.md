@@ -1,2 +1,1 @@
-# The game
-https://playvortex.io/games/15
+# [The game](https://playvortex.io/games/15)
